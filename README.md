@@ -2,7 +2,9 @@
 
 # Summary
 For a summary of unicity results for 01/06/2017 to 29/08/2017, see [here](Ripple unicity summary.ipynb)
-Uniqueness calculations (to be compared with [1]):
+![Unicity results](unicity_results.png)
+
+Uniqueness calculations for 01/06/2017 to 29/08/2017 (to be compared with [1]):
 ![Uniqueness results](uniqueness_results.png)
 
 # TODO / Suggestions
