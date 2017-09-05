@@ -1,7 +1,8 @@
 # Ripple-and-privacy
 
 # Summary
-For a summary of unicity results for 01/06/2017 to 29/08/2017, see [here](Ripple unicity summary.ipynb)
+For a summary of unicity results for 01/06/2017 to 29/08/2017, see (here)[Ripple unicity summary.ipynb]
+
 ![Unicity results](unicity_results.png)
 
 Uniqueness calculations for 01/06/2017 to 29/08/2017 (to be compared with [1]):
