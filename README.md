@@ -1,12 +1,23 @@
 # Ripple-and-privacy
 
 # Summary
-For a summary of unicity results for 01/06/2017 to 29/08/2017, see (here)[Ripple unicity summary.ipynb]
+## unicity results for 01/06/2017 to 29/08/2017
 
 ![Unicity results](unicity_results.png)
 
-Uniqueness calculations for 01/06/2017 to 29/08/2017 (to be compared with [1]):
+The calculation of unicity for p=1,2,3,4 can be found in the notebooks `Ripple_unicity_calculations_{P VALUE}point.ipynb`, if you need to check or recalculate results.
+
+A nice summary can be found in `Ripple unicity results.ipynb`
+
+## Uniqueness calculations for 01/06/2017 to 29/08/2017
 ![Uniqueness results](uniqueness_results.png)
+
+It is worth noting that these results differ from the values calculated by DiLuzio et. al. [1] on the data from 2013 - 2015.
+
+Possible factors:
+1. There has been a dramatic change in the value of XRP, so the generalisation of data may not be comparable
+2. We are calculating some different value
+3. There is a mistake somewhere
 
 # TODO / Suggestions
 1. Understand cause of discrepancies. Verify the results are true
