@@ -5,6 +5,32 @@
 
 ![Unicity results](unicity_results.png)
 
+**Key**
+
+T = Time of transaction. The precision, or conversely coarseness, with which this is known by the attacker is either 'd' (day), 'm' (minute), 'h' (hour), 's' (second), or '-' (unknown)
+
+A = Amount of cryptocurrency transferred. The precision with which this is known by the attacker is either 'l' (low), 'm' (medium), 'h' (high), or '-' (unknown). The levels at which currencies of different strengths were rounded are as follows:
+
+| Currency strength | h      | m         | l          |
+|-------------------|--------|-----------|------------|
+| High              | 0.001  | 0.01      | 0.1        |
+| Medium            | 10     | 100       | 1000       |
+| Low               | 10 000 | 1 000 000 | 10 000 000 |
+
+The strength of currencies used for this rounding.
+
+| Strength | Currencies (abbreviation) |
+|----------|---------------------------|
+| High     | BTC, XAG, XAU, XPT        |
+| Medium   | CNY,EUR,USD,AUD,GBP,JPY   |
+| Low      | CCK,STR,KRW,MTL,XRP       |
+  
+Note that this coarsening is only approximate. Currencies may have changed in strength over time but for simplicity we only used the strengths given above for the whole period.
+
+'C', if included, means the attacker knows the currency used in the transaction.
+
+'D', if included, means the attacker knows the 'destination', i.e. the Ripple account, to which the transaction was made. 
+
 The calculation of unicity for p=1,2,3,4 can be found in the notebooks `Ripple_unicity_calculations_{P VALUE}point.ipynb`, if you need to check or recalculate results.
 
 A nice summary can be found in `Ripple unicity results.ipynb`
