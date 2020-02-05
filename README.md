@@ -1,5 +1,8 @@
 # Ripple-and-privacy
 
+# Installation
+UPDATE (January 2020): Looking back at this repository, two and a half years on, I have realised not all the data required to reproduce the results is available here. Unfortunately the ledger for the time period from June to August 2017 (including all 2.5 million transactions) is too large to upload to GitHub, and quite difficult to put all into memory at one time. The data was extracted using the Ripple Data API, documentation [here](https://xrpl.org/data-api.html). Note that there is a limit to how many transactions are returned per page, you need to iterate through. Once you figure a way to extract the data you should be able to run `dataset_summary.ipynb`, which I realise has a lot of non-evaluated cells! Thankfully I had the foresight, to included pickle files for running the Unicity calculations. Please post an issue if you need help.
+
 # Summary
 ## unicity results for 01/06/2017 to 29/08/2017
 
